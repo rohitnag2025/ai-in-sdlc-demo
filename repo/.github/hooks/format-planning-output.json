@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "SubagentStart": [
+      {
+        "type": "command",
+        "command": "node .github/hooks/format-planning-output.cjs",
+        "cwd": ".",
+        "timeout": 15
+      }
+    ]
+  }
+}
