@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "type": "command",
+        "command": "node .github/hooks/validate-after-edit.cjs",
+        "cwd": ".",
+        "timeout": 900
+      }
+    ]
+  }
+}
